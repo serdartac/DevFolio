@@ -1,0 +1,48 @@
+﻿@model DevFolio.Models.TblContact
+
+<div class="col-md-6">
+	<div class="title-box-2">
+		<h5 class="title-left">
+			Bize Mesaj Gönderin
+		</h5>
+	</div>
+	<div>
+		@using (Html.BeginForm("SendMessage", "Contact", FormMethod.Post))
+		{
+			<form action="" method="post" role="form" class="contactForm">
+				<div id="sendmessage">Your message has been sent. Thank you!</div>
+				<div id="errormessage"></div>
+				<div class="row">
+					<div class="col-md-12 mb-3">
+						<div class="form-group">
+							@Html.TextBoxFor(x=>x.NameSurname, new {@class="form-control", id="name", placeholder = "Ad Soyad" })
+							@*<input type="text" name="name" class="form-control" id="name" placeholder="Ad Soyad" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />*@
+							<div class="validation"></div>
+						</div>
+					</div>
+					<div class="col-md-12 mb-3">
+						<div class="form-group">
+							@Html.TextBoxFor(x => x.Email, new { @class = "form-control", id = "email", placeholder = "Email" })
+							<div class="validation"></div>
+						</div>
+					</div>
+					<div class="col-md-12 mb-3">
+						<div class="form-group">
+							@Html.TextBoxFor(x => x.Subject, new { @class = "form-control", id = "subject", placeholder = "Konu" })
+							<div class="validation"></div>
+						</div>
+					</div>
+					<div class="col-md-12 mb-3">
+						<div class="form-group">
+							@Html.TextAreaFor(x => x.Message, new { @class = "form-control", rows = "5", placeholder = "Mesajınız" })
+							<div class="validation"></div>
+						</div>
+					</div>
+					<div class="col-md-12">
+						<button type="submit" class="button button-a button-big button-rouded">Mesaj Gönder</button>
+					</div>
+				</div>
+			</form>
+		}
+		</div>
+</div>

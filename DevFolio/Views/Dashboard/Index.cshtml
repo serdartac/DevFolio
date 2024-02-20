@@ -1,0 +1,92 @@
+﻿
+@{
+	ViewBag.Title = "Index";
+	Layout = "~/Views/AdminLayout/Index.cshtml";
+}
+
+<div class="container">
+	<h3>Dashboard</h3>
+	<hr />
+	<div class="row">
+		<div class="col-xl-3 col-md-6 mb-4">
+			<div class="card border-left-primary shadow h-100 py-2">
+				<div class="card-body">
+					<div class="row no-gutters align-items-center">
+						<div class="col mr-2">
+							<div class="text-xs font-weight-bold text-primary text-uppercase mb-1">
+								Hizmet Sayısı
+								<i class="fa fa-calendar" style="font-size:36px"></i>
+							</div>
+							<div class="h5 mb-0 font-weight-bold text-gray-800">@ViewBag.serviceCount</div>
+						</div>
+						<div class="col-auto">
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="col-xl-3 col-md-6 mb-4">
+			<div class="card border-left-success shadow h-100 py-2">
+				<div class="card-body">
+					<div class="row no-gutters align-items-center">
+						<div class="col mr-2">
+							<div class="text-xs font-weight-bold text-success text-uppercase mb-1">
+								Referanslar
+								<i class="fa fa-comments" style="font-size:36px"></i>
+							</div>
+							<div class="h5 mb-0 font-weight-bold text-gray-800">@ViewBag.testimonialCount</div>
+						</div>
+						<div class="col-auto">
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="col-xl-3 col-md-6 mb-4">
+			<div class="card border-left-info shadow h-100 py-2">
+				<div class="card-body">
+					<div class="row no-gutters align-items-center">
+						<div class="col mr-2">
+							<div class="text-xs font-weight-bold text-info text-uppercase mb-1">
+								Projelerim
+								<i class="fa fa-suitcase" style="font-size:36px"></i>
+							</div>
+							<div class="row no-gutters align-items-center">
+								<div class="col-auto">
+									<div class="h5 mb-0 mr-3 font-weight-bold text-gray-800">@ViewBag.projectCount</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-auto">
+							
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="col-xl-3 col-md-6 mb-4">
+			<div class="card border-left-warning shadow h-100 py-2">
+				<div class="card-body">
+					<div class="row no-gutters align-items-center">
+						<div class="col mr-2">
+							<div class="text-xs font-weight-bold text-warning text-uppercase mb-1">
+								Gelen Mesaj
+								<i class="fa fa-envelope-open" style="font-size:36px"></i>
+							</div>
+							<div class="h5 mb-0 font-weight-bold text-gray-800">@ViewBag.messageCount</div>
+						</div>
+						<div class="col-auto">
+							
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="container bg-light">
+	<canvas id="myChart" style="width:70%;max-width:100%"></canvas>
+</div>

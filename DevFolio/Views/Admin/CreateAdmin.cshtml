@@ -1,0 +1,17 @@
+﻿
+@{
+    ViewBag.Title = "CreateAdmin";
+    Layout = "~/Views/AdminLayout/Index.cshtml";
+}
+
+<h2>Yeni Yönetici Girişi</h2>
+
+<form method="post">
+	<label>Kullanıcı Adı</label>
+	<input type="text" class="form-control" name="Username" />
+	<br />
+	<label>Şifre</label>
+	<input type="text" class="form-control" name="Password" />
+	<br />
+	<button class="btn btn-info">Yöneticiyi Kaydet</button>
+</form>

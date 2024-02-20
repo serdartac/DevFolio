@@ -1,0 +1,26 @@
+﻿@model DevFolio.Models.TblAddress
+@{
+    ViewBag.Title = "UpdateAddress";
+    Layout = "~/Views/AdminLayout/Index.cshtml";
+}
+
+<h2>Adres Güncelleme Sayfası</h2>
+
+<form method="post">
+	<label>Adres Id</label>
+	<input type="text" class="form-control" name="AddressId" value="@Model.AddressId" />
+	<br />
+	<label>Açıklama</label>
+	<input type="text" class="form-control" name="Description" value="@Model.Description" />
+	<br />
+	<label>Konum</label>
+	<input type="text" class="form-control" name="Location" value="@Model.Location" />
+	<br />
+	<label>Tel No</label>
+	<input type="tel" class="form-control" name="PhoneNumber" value="@Model.PhoneNumber" />
+	<br />
+	<label>Email</label>
+	<input type="email" class="form-control" name="Email" value="@Model.Email" />
+	<br />
+	<button class="btn btn-warning">Adres Güncelle</button>
+</form>

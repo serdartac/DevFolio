@@ -1,0 +1,20 @@
+﻿@model DevFolio.Models.TblFeature
+@{
+    ViewBag.Title = "UpdateFeature";
+    Layout = "~/Views/AdminLayout/Index.cshtml";
+}
+
+<h2>Özellik Güncelleme Sayfası</h2>
+
+<form method="post">
+	<label>Özellik ID</label>
+	<input type="text" class="form-control" name="FeatureId" value="@Model.FeatureId" />
+	<br />
+	<label>Başlık</label>
+	<input type="text" class="form-control" name="HeaderTitle" value="@Model.HeaderTitle" />
+	<br />
+	<label>Başlık Açıklaması</label>
+	<input type="text" class="form-control" name="HeaderDescription" value="@Model.HeaderDescription" />
+	<br />
+	<button class="btn btn-info">Özellik Güncelle</button>
+</form>

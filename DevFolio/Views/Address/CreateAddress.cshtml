@@ -1,0 +1,23 @@
+﻿
+@{
+    ViewBag.Title = "CreateAddress";
+    Layout = "~/Views/AdminLayout/Index.cshtml";
+}
+
+<h2>Yeni Adres Girişi </h2>
+
+<form method="post">
+	<label>Açıklama</label>
+	<input type="text" class="form-control" name="Description" />
+	<br />
+	<label>Konum</label>
+	<input type="text" class="form-control" name="Location" />
+	<br />
+	<label>Tel No</label>
+	<input type="tel" class="form-control" name="PhoneNumber" />
+	<br />
+	<label>Email</label>
+	<input type="email" class="form-control" name="Email" />
+	<br />
+	<button class="btn btn-info">Adresi Kaydet</button>
+</form>

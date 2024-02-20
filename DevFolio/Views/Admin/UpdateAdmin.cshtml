@@ -1,0 +1,20 @@
+﻿@model DevFolio.Models.TblAdmin 
+@{
+    ViewBag.Title = "UpdateAdmin";
+    Layout = "~/Views/AdminLayout/Index.cshtml";
+}
+
+<h2>Yönetici Güncelleme Sayfası</h2>
+
+<form method="post">
+	<label>Yönetici Id</label>
+	<input type="text" class="form-control" name="AdminId" value="@Model.AdminId" />
+	<br />
+	<label>Kullanıcı Adı</label>
+	<input type="text" class="form-control" name="Username" value="@Model.Username" />
+	<br />
+	<label>Şifre</label>
+	<input type="text" class="form-control" name="Password" value="@Model.Password" />
+	<br />
+	<button class="btn btn-warning">Yönetici Güncelle</button>
+</form>
