@@ -13,3 +13,15 @@
  * Linq
    
  ## Veritabanı
+![Veritabanı](https://github.com/serdartac/DevFolio/assets/37572694/df3b6c94-2d20-4130-914a-ec43382a0ec8)
+
+## Yönetici Paneli Girişi
+![LoginPaneli](https://github.com/serdartac/DevFolio/assets/37572694/fca09f83-6d8d-44e4-b38a-1a3419dd727c)
+
+## Yöentici Paneli Sayfası
+![Screenshot_20-2-2024_17370_localhost](https://github.com/serdartac/DevFolio/assets/37572694/7fd8d120-69f6-44a9-8336-db65a1567edd)
+
+## Proje Arayüzü
+![ProjeArayüzü](https://github.com/serdartac/DevFolio/assets/37572694/c8dd1552-88db-4b5c-838b-7b0f2f430391)
+
+
