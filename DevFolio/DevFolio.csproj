@@ -214,6 +214,10 @@
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="devfolio proje ss\LoginPaneli.jpeg" />
+    <Content Include="devfolio proje ss\ProjeArayüzü.jpeg" />
+    <Content Include="devfolio proje ss\Screenshot_20-2-2024_17370_localhost.jpeg" />
+    <Content Include="devfolio proje ss\Veritabanı.png" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />

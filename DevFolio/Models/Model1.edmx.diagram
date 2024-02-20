@@ -4,20 +4,20 @@
   <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
     <!-- Diagram content (shape and connector positions) -->
     <edmx:Diagrams>
-      <Diagram DiagramId="33d6ab3f590d4a98b38f5c91a31ac807" Name="Diagram1" ZoomLevel="100">
-        <EntityTypeShape EntityType="DbDevFolioModel.sysdiagrams" Width="1.5" PointX="0.5" PointY="3.375" IsExpanded="true" />
-        <EntityTypeShape EntityType="DbDevFolioModel.TblAbout" Width="1.5" PointX="2.125" PointY="3.375" IsExpanded="true" />
-        <EntityTypeShape EntityType="DbDevFolioModel.TblAddress" Width="1.5" PointX="3.75" PointY="3.375" IsExpanded="true" />
-        <EntityTypeShape EntityType="DbDevFolioModel.TblAdmin" Width="1.5" PointX="4" PointY="0.875" IsExpanded="true" />
-        <EntityTypeShape EntityType="DbDevFolioModel.TblCategory" Width="1.5" PointX="0.5" PointY="0.875" IsExpanded="true" />
-        <EntityTypeShape EntityType="DbDevFolioModel.TblContact" Width="1.5" PointX="5.375" PointY="3.375" IsExpanded="true" />
-        <EntityTypeShape EntityType="DbDevFolioModel.TblFeature" Width="1.5" PointX="5.75" PointY="0.875" IsExpanded="true" />
-        <EntityTypeShape EntityType="DbDevFolioModel.TblProfile" Width="1.5" PointX="0.5" PointY="5.875" IsExpanded="true" />
-        <EntityTypeShape EntityType="DbDevFolioModel.TblProject" Width="1.5" PointX="2.25" PointY="0.875" IsExpanded="true" />
-        <EntityTypeShape EntityType="DbDevFolioModel.TblService" Width="1.5" PointX="2.375" PointY="5.875" IsExpanded="true" />
-        <EntityTypeShape EntityType="DbDevFolioModel.TblSkill" Width="1.5" PointX="4.25" PointY="5.875" IsExpanded="true" />
-        <EntityTypeShape EntityType="DbDevFolioModel.TblSocialMedia" Width="1.5" PointX="6.125" PointY="5.875" IsExpanded="true" />
-        <EntityTypeShape EntityType="DbDevFolioModel.TblTestimonial" Width="1.5" PointX="7.125" PointY="3.375" IsExpanded="true" />
+      <Diagram DiagramId="33d6ab3f590d4a98b38f5c91a31ac807" Name="Diagram1" ZoomLevel="97">
+        <EntityTypeShape EntityType="DbDevFolioModel.sysdiagrams" Width="1.5" PointX="5.5" PointY="9.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="DbDevFolioModel.TblAbout" Width="1.5" PointX="0.5" PointY="3.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="DbDevFolioModel.TblAddress" Width="1.5" PointX="2.875" PointY="3.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="DbDevFolioModel.TblAdmin" Width="1.5" PointX="5.25" PointY="0.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="DbDevFolioModel.TblCategory" Width="1.5" PointX="0.5" PointY="0.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="DbDevFolioModel.TblContact" Width="1.5" PointX="5.25" PointY="3" IsExpanded="true" />
+        <EntityTypeShape EntityType="DbDevFolioModel.TblFeature" Width="1.5" PointX="7.75" PointY="0.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="DbDevFolioModel.TblProfile" Width="1.5" PointX="0.625" PointY="5.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="DbDevFolioModel.TblProject" Width="1.5" PointX="2.875" PointY="0.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="DbDevFolioModel.TblService" Width="1.5" PointX="3" PointY="5.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="DbDevFolioModel.TblSkill" Width="1.5" PointX="5" PointY="5.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="DbDevFolioModel.TblSocialMedia" Width="1.5" PointX="7.5" PointY="5.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="DbDevFolioModel.TblTestimonial" Width="1.5" PointX="7.625" PointY="2.75" IsExpanded="true" />
         <AssociationConnector Association="DbDevFolioModel.FK_TblProject_TblCategory" ManuallyRouted="false" />
       </Diagram>
     </edmx:Diagrams>
